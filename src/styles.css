@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Homepage */
+  .home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .button-group button {
+    width: 250px;
+  }
+  
+  /* Category Selector */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-select, .form-control {
+    border-radius: 5px;
+  }
+  
+  /* Quiz Page */
+  .progress {
+    border-radius: 5px;
+  }
+  
+  .progress-bar {
+    font-weight: bold;
+  }
+  
+  .list-unstyled {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-unstyled button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Drag-and-Drop */
+  .matching-game {
+    text-align: center;
+  }
+  
+  .drop-zones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .draggable-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .draggable {
+    cursor: grab;
+    user-select: none;
+  }
+  
+  /* Result Page */
+  .result-container {
+    text-align: center;
+  }
+  
+  .result-container h3 {
+    margin-top: 10px;
+  }
+  

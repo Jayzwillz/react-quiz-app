@@ -1,0 +1,26 @@
+.matching-game {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .drop-zones, .draggable-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .dropzone {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+  }
+  
+  .draggable {
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
