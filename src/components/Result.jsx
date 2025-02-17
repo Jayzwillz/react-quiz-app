@@ -25,7 +25,7 @@ const Result = () => {
       <button className="btn btn-primary mt-4" onClick={() => navigate("/")}>
         Go to Home
       </button>
-      <button className="btn btn-success mt-4 ms-3" onClick={() => navigate("/multiple-choice")}>
+      <button className="btn btn-success mt-4" onClick={() => navigate("/multiple-choice")}>
         Play Again
       </button>
     </div>
