@@ -86,8 +86,12 @@ button:hover {
 
 /* Question & Options */
 h2 {
-  font-size: 22px;
   margin-bottom: 20px;
+  font-weight: 900;
+}
+
+p{
+  font-size: larger;
 }
 
 .list-unstyled {
@@ -111,7 +115,6 @@ h2 {
 
 /* Answer Feedback */
 .text-info {
-  font-size: 18px;
   margin-top: 10px;
 }
 
