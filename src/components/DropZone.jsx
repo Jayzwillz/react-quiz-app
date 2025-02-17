@@ -18,6 +18,8 @@ const DropZone = ({ definition, onDrop, matchedTerm, isIncorrect }) => {
         padding: "15px",
         margin: "5px",
         minHeight: "50px",
+        color: "darkgoldenrod",
+        fontWeight: "600",
         background: matchedTerm
           ? "#C8F7C5"
           : isIncorrect
